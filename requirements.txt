@@ -1,0 +1,26 @@
+# Visión por Computadora I — CEIA FIUBA
+# Python >= 3.10
+#
+# Nota: instalar SOLO opencv-contrib-python. No agregar opencv-python
+# en paralelo: comparten los mismos módulos y entran en conflicto.
+# El paquete contrib incluye SIFT, los trackers y xfeatures2d.
+
+# --- Core ---
+numpy>=1.26,<2.2
+opencv-contrib-python>=4.9,<5.0
+matplotlib>=3.8
+scipy>=1.11
+
+# --- Procesamiento de imágenes ---
+scikit-image>=0.22
+Pillow>=10.0
+imutils>=0.5.4
+
+# --- Segmentación / clustering (K-Means, mean-shift) ---
+scikit-learn>=1.4
+
+# --- Notebooks ---
+jupyterlab>=4.0
+ipykernel>=6.29
+ipywidgets>=8.1
+tqdm>=4.66
