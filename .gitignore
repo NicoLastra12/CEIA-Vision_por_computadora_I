@@ -1,11 +1,15 @@
-# Ocultar absolutamente todo en el repositorio
-/*
-
-# Excepto el archivo 
+# Excepto el archivo .gitignore
 !.gitignore
 
-# Bloquear carpeta que contiene el entorno virtual
+# Bloquear la carpeta que contiene el entorno virtual
 .env/
 
-# Bloquear archivos temporales dentro de las carpetas pública
+# Bloquear carpetas temporales de Jupyter Notebooks en cualquier nivel
+**/.ipynb_checkpoints/
+
+
+# Bloquear la carpeta del entorno virtual
+.env/
+
+# Bloquear carpetas temporales de Jupyter Notebooks en cualquier nivel
 **/.ipynb_checkpoints/
